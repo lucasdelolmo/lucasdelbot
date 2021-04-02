@@ -3,3 +3,4 @@ gtts
 praw
 pipenv
 logging
+telepot
