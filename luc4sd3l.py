@@ -41,7 +41,8 @@ def start(update: Update, _: CallbackContext) -> None:
 
 def help_command(update: Update, _: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Hola, ¿como estas? Estoy aquí para ayudarte, y lo prometido es deuda. Sigue estos pasos para poder comenzar a ganar $20 DOLARES sin invertir tiempo ni dinero PASO 1: Guarda mi contacto para que puedas estar al pendiente y no te pierdas las oportunidades que ofrezco. PASO 2: Descarga la APP aqui: https://www.honeygain.com PASO 3: Una vez descargada la APK, registrate con este link: https://r.honeygain.me/LUCASF66E2 PASO 4: Inicia sesión hasta 3 dispositivos para poder sacarle el máximo provecho a este método PASO 5: Disfruta de la miel que generes y canjeala por dinero. (Mínimo para retirar: 20$) NOTA: Solo disponible para ANDROID, WINDOWS, MacOS y LINUX')
+    update.message.reply_text('Hola, ¿como estas? Estoy aquí para ayudarte, y lo prometido es deuda. Sigue estos pasos para poder comenzar a ganar $20 DOLARES sin invertir tiempo ni dinero PASO 1: Guarda mi contacto para que puedas estar al pendiente y no te pierdas las oportunidades que ofrezco. PASO 2: Descarga la APK y registrate con este link: https://r.honeygain.me/LUCASF66E2 PASO 3: Inicia sesión hasta 3 dispositivos para poder sacarle el máximo provecho a este método PASO 4: Disfruta de la miel que generes y canjeala por dinero. (Mínimo para retirar: 20$) NOTA: Solo disponible para ANDROID, WINDOWS, MacOS y LINUX
+')
 
 
 
