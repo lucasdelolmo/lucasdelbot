@@ -16,6 +16,7 @@ bot.
 """
 
 import logging
+import telepot
 
 from telegram import Update, ForceReply
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
