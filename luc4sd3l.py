@@ -16,6 +16,10 @@ bot.
 """
 
 import logging
+import flask
+import flask_session
+import gunicorn
+import python-telegram-bot
 
 from telegram import Update, ForceReply
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
